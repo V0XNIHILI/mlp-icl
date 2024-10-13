@@ -23,8 +23,8 @@ dependencies = [
     'tqdm'
 ]
 
-[tool.setuptools.packages.find]
-where = ["mlp_icl"]
+[tool.setuptools]
+packages = ["mlp_icl"]
 
 [build-system]
 requires = ["setuptools"]
